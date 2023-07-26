@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="поздравление,  с днем рождения, открытка">
+    <meta name="description" content="поздравление с днем рождения">
+    <meta name="author" content="Gendos">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="theme-color" content="#00ffff"> <!-- for mobile -->
+    <title>greeting card</title>
+    <link rel="icon" href="./css/icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script defer src="./app/script.js"></script>
+    <script defer src="./app/generator.js"></script>
+    <script defer src="./app/privacy.js"></script>
+</head>
+
+<body>
+
+<div class="wrapper">
+    <div id="preloader">
+        <img src="./css/icon/loader.svg" alt="loading">
+        <p>loading</p>
+    </div>
+    <header class="header" id="header">
+        <div class="wrapper__container">
+            <div class="header__inner">
+                <a class="logo" href="#">
+                    <img class="logo__img" src="./css/images/logo.JPG" alt="logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#popup" style="letter-spacing: 4px; font-size: 15px">POPUP</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#telephone">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main" id="main">
+        <div class="wrapper__container">
+            <div class="main__inner">
+                <!-- <div class="popup" id="popup">
+                    <a class="popup__area" href="#head"></a>
+                    <div class="popup__body">
+                        <div class="popup__content">
+                            <a class="popup__close" href="#header">X</a>
+                            <div class="popup__title">modal</div>
+                            <div class="popup__text">textt</div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+    </main>
+
+    <section class="generator" id="generator">
+        <!-- <div class="generator__inner">
+                <div class="generator__congratulations">
+                    <h2 class="generator__title"></h2>
+                    <div class="generator_wish">
+                        <p class="generator_wish-1"></p>
+                        <p class="generator_wish-2"></p>
+                        <p class="generator_wish-3"></p>
+                    </div>
+                    <div class="generator__images">
+                        <img class="generator__images-img" src="">
+                    </div>
+                </div> -->
+    </section>
+
+
+    <div class="popup" id="popup">
+        <div class="popup__inner">
+            <a class="popup__area" href="#head"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a class="popup__close" href="#header"><span>&times;</span></a>
+                    <div class="popup__title">Ну все теперь пора отмечать</div>
+                    <div class="popup__text">
+                        <p>если не знаешь с кем звони по телефону <span>"горячих линий"</span></p>
+                        <a class="footer__contacts-link" href="tel:+375296186990">
+                            <img class="footer__contacts-img" src="./css/icon/phone.svg" alt="">
+                            <span>жми сюда: +375 (25) 910 20 97</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="telephone">
+        <div class="popup__inner">
+            <a class="popup__area" href="#head"></a>
+            <div class="popup__body--telephone">
+                <div class="popup__content">
+                    <a class="popup__close" href="#header"><span>&times;</span></a>
+                    <div class="popup__text--telephone">
+                        <p>звони по телефону</p>
+                        <a class="footer__contacts-link" href="tel:+375296186990">
+                            <img class="footer__contacts-img" src="./css/icon/phone.svg" alt="">
+                            <span>+375 (29) 618 69 90</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="privacy" id="privacy">
+        <div class="wrapper-container">
+            <div class="privacy__inner">
+                <!-- inserting an element via JS -->
+                <!-- click event js -->
+            </div>
+        </div>
+    </section>
+
+    <section class="generatorGet" id="generatorGet">
+        <div class="wrapper-container">
+            <div class="generatorGet__inner">
+                <button class="generatorGet__btn"><span>Генерирую поздравления</span></button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="wrapper__container">
+            <div class="footer__inner">
+                <a class="footer__link" href="#privacy">Политика</a>
+                <button class="footer__btn footer__btn--active" type="button" value="Back">Back</button>
+                <div class="footer__social">
+                    <a class="footer__social-link" href="https://www.instagram.com/">
+                        <img class="footer__social-img" src="./css/icon/instagram.svg" alt="">
+                        <span>VabGen</span>
+                    </a>
+                </div>
+                <div class="footer__contacts">
+                    <a class="footer__contacts-link" id="contacts" href="tel:+375296186990">
+                        <img class="footer__contacts-img" src="./css/icon/phone.svg" alt="">
+                        <span>+375 (25) 910 20 97</span>
+                    </a>
+                    <a class="footer__contacts-link" id="contacts" href="mailto:vabishchevich@mail.ru">
+                        <img class="footer__contacts-img" src="./css/icon/mail.svg" alt="">
+                        <span>vabishchevich@mail.ru</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+</body>
+
+</html>
